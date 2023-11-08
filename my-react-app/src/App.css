@@ -1,0 +1,35 @@
+/* Обнуляем отступы и маргины */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Задаем шрифт и цвет фона для всего документа */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Центрируем корневой элемент приложения */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Задаем стили для заголовка приложения */
+.app-title {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Задаем стили для формы добавления задачи */
+.task-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Задаем ст
